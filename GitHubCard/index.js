@@ -89,10 +89,10 @@ function githubCards (obj) {
         userFollowing = document.createElement('p'),
         userBio = document.createElement('p');
 
-  userCard.classList.add = 'card';
-  cardInfo.classList.add = 'card-info';
-  name.classList.add = 'name';
-  username.classList.add = 'username';
+  userCard.classList.add('card');
+  cardInfo.classList.add('card-info');
+  name.classList.add('name');
+  username.classList.add('username');
 
   userImage.src = obj.data['avatar_url'];
   name.textContent = obj.data.name;
